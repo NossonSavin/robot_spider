@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #222;
+    color: #999;
+    font-family: monospace;
+    user-select: none;
+}
+
+header {
+    background-color: #111;
+    padding: 15px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#page {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr 1fr 1fr 1fr;
+    /* display: flex; */
+    gap: 15px;
+    /* justify-content: center; */
+    margin-top: 20px;
+    padding-bottom: 10px;
+    /* width: 100%; */
+    font-size: 2rem;
+    accent-color: rgb(16, 152, 150);
+}
+
+.inputContainer button {
+    background-color: #999;
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+    /* min-width: 75px; */
+    border: none;
+    border-radius: 18px;
+}
+
+.box {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin: auto;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.boxBtn {
+    background-color: #999;
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+    width: 140px;
+    border: none;
+    border-radius: 18px;
+}
+
+.speed {
+    font-weight: bold;
+    color: rgb(134, 35, 66);
+    accent-color: rgb(134, 35, 66);
+}
+.speed button{
+    background-color: rgb(134, 35, 66);
+}
+
+button:active {
+    background-color: #555;
+}

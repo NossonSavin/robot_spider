@@ -1,0 +1,19 @@
+{
+    "actionButtons": {
+        "defaultColor": "white", // Can also use string color names.
+        "loadNpmCommands": false, // Disables automatic generation of actions for npm commands.
+        "reloadButton": null, // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
+        "commands": [
+            {
+                "cwd": "${workspaceFolder}", // Terminal initial folder ${workspaceFolder} and os user home as defaults
+                "name": "OTA Firmware",
+                "command": "python Ota.py '${workspaceFolder}' firmware",
+            },
+            {
+                "cwd": "${workspaceFolder}", // Terminal initial folder ${workspaceFolder} and os user home as defaults
+                "name": "OTA LittelFs",
+                "command": "python Ota.py '${workspaceFolder}' filesystem",
+            }
+        ]
+    }
+}
